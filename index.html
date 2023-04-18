@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<div class="circles">
+    <div class="circles__svg">
+        <div class="circles__svg__svg-box">
+            <svg id="svg1" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                 preserveAspectRatio="xMidYMin"
+                 width="150" height="150" viewBox="10 10 110 110">
+                <defs>
+                    <linearGradient id="lgrad" x1="0%" y1="50%" x2="100%" y2="50%" >
+                        <stop offset="0%" style="stop-color:rgb(51,105,231);stop-opacity:1.00" />
+                        <stop offset="100%" style="stop-color:rgb(142,67,231);stop-opacity:1.00" />
+                    </linearGradient>
+                </defs>
+                <g transform="rotate(180 60 60)">
+                    <circle stroke-linecap="butt" cx="50%" cy="50%" r="50" fill="#ffffff"
+                            stroke-dasharray="400"
+                            stroke="#EEEEEE" stroke-width="9">
+                    </circle>
+                    <circle class="svgCircle" stroke-linecap="butt" cx="50%" cy="50%" r="50" fill="none"
+                            stroke-dashoffset="0"
+                            stroke-dasharray="0,314"
+                            stroke="url(#lgrad)" stroke-width="9">
+                        <animate attributeName="stroke-dasharray" begin="forward.begin" dur="2s"
+                                 values="0,314;180,270"
+                                 fill="freeze"/>
+                    </circle>
+                    <circle id="circle2" cx="0" cy="0" r="0">
+                        <animateMotion
+                                id="forward"
+                                dur="2s"
+                                begin="indefinite"
+                                repeatCount="1"
+                                keyPoints="0;1"
+                                keyTimes="0;1"
+                                calcMode="linear"
+                                fill="freeze">
+                            <mpath href="#pathID"/>
+                        </animateMotion>
+                    </circle>
+                </g>
+            </svg>
+            <div class="circles__svg__svg-box__value-box">
+                <div class="circles__svg__svg-box__value-box__value">
+                    <div id="value1">1</div>
+                    <span>+</span>
+                </div>
+                <span>проектов</span>
+            </div>
+        </div>
+        <p>Реализовано за все время работы</p>
+    </div>
+    <div class="circles__svg">
+        <div class="circles__svg__svg-box">
+            <svg id="svg1" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                 preserveAspectRatio="xMidYMin"
+                 width="150" height="150" viewBox="10 10 110 110">
+                <defs>
+                    <linearGradient id="lgrad" x1="0%" y1="50%" x2="100%" y2="50%" >
+                        <stop offset="0%" style="stop-color:rgb(51,105,231);stop-opacity:1.00" />
+                        <stop offset="100%" style="stop-color:rgb(142,67,231);stop-opacity:1.00" />
+                    </linearGradient>
+                </defs>
+                <g transform="rotate(180 60 60)">
+                    <circle stroke-linecap="butt" cx="50%" cy="50%" r="50" fill="#ffffff"
+                            stroke-dasharray="400"
+                            stroke="#EEEEEE" stroke-width="9">
+                    </circle>
+                    <circle class="svgCircle" stroke-linecap="butt" cx="50%" cy="50%" r="50" fill="none"
+                            stroke-dashoffset="0"
+                            stroke-dasharray="0,314"
+                            stroke="url(#lgrad)" stroke-width="9">
+                        <animate attributeName="stroke-dasharray" begin="forward.begin" dur="2s"
+                                 values="0,314;250,270"
+                                 fill="freeze"/>
+                    </circle>
+                    <circle id="circle2" cx="0" cy="0" r="0">
+                        <animateMotion
+                                id="forward"
+                                dur="2s"
+                                begin="indefinite"
+                                repeatCount="1"
+                                keyPoints="0;1"
+                                keyTimes="0;1"
+                                calcMode="linear"
+                                fill="freeze">
+                            <mpath href="#pathID"/>
+                        </animateMotion>
+                    </circle>
+                </g>
+            </svg>
+            <div class="circles__svg__svg-box__value-box">
+                <div class="circles__svg__svg-box__value-box__value">
+                    <div id="value2">1</div>
+                    <span>+</span>
+                </div>
+                <span>человек</span>
+            </div>
+        </div>
+        <p>Обращаются к нам ежедневно</p>
+    </div>
+    <div class="circles__svg">
+        <div class="circles__svg__svg-box">
+            <svg id="svg1" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                 preserveAspectRatio="xMidYMin"
+                 width="150" height="150" viewBox="10 10 110 110">
+                <defs>
+                    <linearGradient id="lgrad" x1="0%" y1="50%" x2="100%" y2="50%" >
+                        <stop offset="0%" style="stop-color:rgb(51,105,231);stop-opacity:1.00" />
+                        <stop offset="100%" style="stop-color:rgb(142,67,231);stop-opacity:1.00" />
+                    </linearGradient>
+                </defs>
+                <g transform="rotate(180 60 60)">
+                    <circle stroke-linecap="butt" cx="50%" cy="50%" r="50" fill="#ffffff"
+                            stroke-dasharray="400"
+                            stroke="#EEEEEE" stroke-width="9">
+                    </circle>
+                    <circle class="svgCircle" stroke-linecap="butt" cx="50%" cy="50%" r="50" fill="none"
+                            stroke-dashoffset="0"
+                            stroke-dasharray="0,314"
+                            stroke="url(#lgrad)" stroke-width="9">
+                        <animate attributeName="stroke-dasharray" begin="forward.begin" dur="2s"
+                                 values="0,314;160,270"
+                                 fill="freeze"/>
+                    </circle>
+                    <circle id="circle2" cx="0" cy="0" r="0">
+                        <animateMotion
+                                id="forward"
+                                dur="2s"
+                                begin="indefinite"
+                                repeatCount="1"
+                                keyPoints="0;1"
+                                keyTimes="0;1"
+                                calcMode="linear"
+                                fill="freeze">
+                            <mpath href="#pathID"/>
+                        </animateMotion>
+                    </circle>
+                </g>
+            </svg>
+            <div class="circles__svg__svg-box__value-box">
+                <div class="circles__svg__svg-box__value-box__value">
+                    <div id="value3">1</div>
+                </div>
+                <span>дней</span>
+            </div>
+        </div>
+        <p>Среднее время разработки</p>
+    </div>
+    <div class="circles__svg">
+        <div class="circles__svg__svg-box">
+            <svg id="svg1" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                 preserveAspectRatio="xMidYMin"
+                 width="150" height="150" viewBox="10 10 110 110">
+                <defs>
+                    <linearGradient id="lgrad" x1="0%" y1="50%" x2="100%" y2="50%" >
+                        <stop offset="0%" style="stop-color:rgb(51,105,231);stop-opacity:1.00" />
+                        <stop offset="100%" style="stop-color:rgb(142,67,231);stop-opacity:1.00" />
+                    </linearGradient>
+                </defs>
+                <g transform="rotate(180 60 60)">
+                    <circle stroke-linecap="butt" cx="50%" cy="50%" r="50" fill="#ffffff"
+                            stroke-dasharray="400"
+                            stroke="#EEEEEE" stroke-width="9">
+                    </circle>
+                    <circle class="svgCircle" stroke-linecap="butt" cx="50%" cy="50%" r="50" fill="none"
+                            stroke-dashoffset="0"
+                            stroke-dasharray="0,314"
+                            stroke="url(#lgrad)" stroke-width="9">
+                        <animate attributeName="stroke-dasharray" begin="forward.begin" dur="2s"
+                                 values="0,314;270,270"
+                                 fill="freeze"/>
+                    </circle>
+                    <circle id="circle2" cx="0" cy="0" r="0">
+                        <animateMotion
+                                id="forward"
+                                dur="2s"
+                                begin="indefinite"
+                                repeatCount="1"
+                                keyPoints="0;1"
+                                keyTimes="0;1"
+                                calcMode="linear"
+                                fill="freeze">
+                            <mpath href="#pathID"/>
+                        </animateMotion>
+                    </circle>
+                </g>
+            </svg>
+            <div class="circles__svg__svg-box__value-box">
+                <div class="circles__svg__svg-box__value-box__value">
+                    <div id="value4">1</div>
+                </div>
+                <span>лет</span>
+            </div>
+        </div>
+        <p>Успешной работы в сфере разработки</p>
+    </div>
+</div>
+<script type="text/javascript">
+  //____________________________________________________________________________________________________animateValue
+  function animateValue(id, start, end, duration) {
+    if (start === end) return;
+    const range = end - start;
+    let current = start;
+    const increment = end > start ? 1 : -1;
+    const stepTime = Math.abs(Math.floor(duration / range));
+    const obj = document.getElementById(id);
+    const timer = setInterval(function () {
+      current += increment;
+      obj.innerHTML = current;
+      if (current === end) {
+        clearInterval(timer);
+      }
+    }, stepTime);
+  }
+
+  const forward = document.getElementById('forward')
+
+  // функция определяет нахождение элемента в области видимости
+  // если элемент видно - возвращает true
+  // если элемент невидно - возвращает false
+  function isOnVisibleSpace(element) {
+    if (element) {
+      let bodyHeight = window.innerHeight;
+      let elemRect = element.getBoundingClientRect();
+      let offset = elemRect.top;// - bodyRect.top;
+      if (offset < 0) return false;
+      if (offset > bodyHeight) return false;
+      return true;
+    }
+  }
+
+  // глобальный объект с элементами, для которых отслеживаем их положение в зоне видимости
+  let listenedElements = [];
+  // обработчик события прокрутки экрана. Проверяет все элементы добавленные в listenedElements
+  // на предмет попадания(выпадения) в зону видимости
+  window.onscroll = function () {
+    listenedElements.forEach(item => {
+      if (!item.el) return;
+      // проверяем находится ли элемент в зоне видимости
+      let result = isOnVisibleSpace(item.el);
+
+      // если элемент находился в зоне видимости и вышел из нее
+      // вызываем обработчик выпадения из зоны видимости
+      if (item.el.isOnVisibleSpace && !result) {
+        return;
+      }
+      // если элемент находился вне зоны видимости и вошел в нее
+      // вызываем обработчик попадания в зону видимости
+      if (!item.el.isOnVisibleSpace && result) {
+        item.el.isOnVisibleSpace = true;
+        item.inVisibleSpace(item.el);
+        return;
+      }
+    });
+  }
+
+
+  function onVisibleSpaceListener(elementId, cbIn, cbOut) {
+    // получаем ссылку на объект элемента
+    let el = document.getElementById(elementId);
+    // добавляем элемент и обработчики событий
+    // в массив отслеживаемых элементов
+    listenedElements.push({
+      el: el,
+      inVisibleSpace: cbIn,
+      outVisibleSpace: cbOut
+    });
+  }
+
+  onVisibleSpaceListener("value1",
+    el => {
+      // функция вызываемая при попадании элемента в зону видимости
+      // тут вставляем код запуска анимации
+      forward.beginElement()
+      animateValue("value1", 1, 200, 2000)
+      animateValue("value2", 1, 20, 2000)
+      animateValue("value3", 1, 14, 2000)
+      animateValue("value4", 1, 8, 2000)
+    });
+</script>
+</body>
+</html>
